@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Css/Principal.css">
+    <link rel="stylesheet" href="Css/reset.css">
+    <script src="Java/app.js" async></script>
+    
+</head>
+<body>
+
+    <header>
+        
+        <div class="caja">
+            <img class="Imagen1" src="Img/Logo1.png">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Principal</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contacto.html">Sugerencias</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    
+        
+        <hr size="5%" color="#000000" width="100%">
+    </header>
+
+    <main>
+        <hr size="5%" color="#000000" width="100%">
+        <h1 class="productos-titulo">PRODUCTOS</h1>
+
+        <div class="contenedor">
+        
+            <div class="contenedor-items">
+
+                <div class="item">
+                    <span class="titulo-item">Lapiz</span>
+                    <img src="Img/Lapiz.webp" alt="" class="img-item">
+                    <span class="precio-item">$2.00</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+
+                <div class="item">
+                    <span class="titulo-item">Pluma</span>
+                    <img src="Img/Pluma.jpg" alt="" class="img-item">
+                    <span class="precio-item">$5.00</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+
+                <div class="item">
+                    <span class="titulo-item">Sacapuntas</span>
+                    <img src="Img/Sacapuntas.webp" alt="" class="img-item">
+                    <span class="precio-item">$50</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="carrito">
+
+            <div class="header-carrito">
+
+                <h2>Tu carrito</h2>
+
+            </div>
+
+            <div class="carrito-items">
+
+                <div class="carrito-item">
+
+                    <img src="Img/Lapiz.webp" alt="" width="80px">
+                    <div class="carrito-item-detalles">
+
+                        <span class="carrito-item-titulo">Lapiz</span>
+                        <div class="selector-cantidad">
+
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+
+
+                        </div>
+
+                        <span class="carrito-item-precio">$2</span>
+
+                    </div>
+
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+
+                </div>
+
+                <div class="carrito-item">
+
+                    <img src="Img/Pluma.jpg" alt="" width="80px">
+                    <div class="carrito-item-detalles">
+
+                        <span class="carrito-item-titulo">Pluma</span>
+                        <div class="selector-cantidad">
+
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+
+
+                        </div>
+
+                        <span class="carrito-item-precio">$5</span>
+
+                    </div>
+
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+
+                </div>
+
+                <div class="carrito-item">
+
+                    <img src="Img/Sacapuntas.webp" alt="" width="80px">
+                    <div class="carrito-item-detalles">
+
+                        <span class="carrito-item-titulo">Sacapuntas</span>
+                        <div class="selector-cantidad">
+
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+
+
+                        </div>
+
+                        <span class="carrito-item-precio">$50</span>
+
+                    </div>
+
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="carrito-total">
+
+                <div class="fila">
+
+                    <strong>Tu total</strong>
+                    <span class="carrito-precio-total">
+
+                        $1333.11
+
+                    </span>
+
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+                
+
+            </div>
+
+        </div>
+
+        <hr size="5%" color="#000000" width="100%">
+    </main>
+
+    <footer>
+        <hr size="5%" color="#000000" width="100%">
+    
+        <img src="Img/logo.png" class="Pie">
+
+    </footer>
+</body>
+</html>
